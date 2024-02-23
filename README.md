@@ -14,6 +14,7 @@
 - npm install mongoose@5.13.22.
 - npm install body-parser.
 - npm install method-override.
+- npm install nodemon.
 
 ## Task Details
 - Express server is created.
