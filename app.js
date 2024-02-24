@@ -13,7 +13,7 @@ require("dotenv").config();
 const dbUrl = process.env.DB_URL;
 
 mongoose
-  .connect("mongodb://localhost:27017/mentors", {
+  .connect(dbUrl, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
